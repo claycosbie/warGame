@@ -8,8 +8,8 @@ if (randomNumber === secondRandomNumber) {
 } else {
   document.querySelector("h1").textContent = "Player 2 Wins"
 };
-document.querySelector(".img1").setAttribute("src", "images/dice"+ randomNumber + ".png");
-document.querySelector(".img2").setAttribute("src", "images/dice"+ secondRandomNumber + ".png");
+document.querySelector(".img1").setAttribute("src", "photos/dice"+ randomNumber + ".png");
+document.querySelector(".img2").setAttribute("src", "photos/dice"+ secondRandomNumber + ".png");
 }
 var playerOne = prompt("Player One Name");
 var playerTwo = prompt("Player Two Name");
