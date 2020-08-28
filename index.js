@@ -9,6 +9,9 @@ var playerTwoScore = 0;
 
 var roundWorth = 1;
 
+document.querySelector(".playerOneName").textContent = playerOne;
+document.querySelector(".playerTwoName").textContent = playerTwo;
+
 document.querySelector("button").addEventListener("click", cardClick);
 
 function cardClick () {
