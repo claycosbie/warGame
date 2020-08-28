@@ -23,7 +23,7 @@ var randomCard = randomNumber + randomSuit
 var secondRandomCard = secondRandomNumber + secondRandomSuit
 if (randomNumber === secondRandomNumber) {
   roundWorth++;
-  document.querySelector("h1").textContent = "Draw - Next Worth " + roundWorth;
+  document.querySelector("h1").textContent = "Draw - Worth " + roundWorth;
 } else if (randomNumber > secondRandomNumber) {
   document.querySelector("h1").textContent = playerOne + " Point";
   playerOneScore = playerOneScore + roundWorth;
