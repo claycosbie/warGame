@@ -35,12 +35,12 @@ if (randomNumber === secondRandomNumber) {
 document.querySelector(".img1").setAttribute("src", "photos/"+ randomCard + ".png");
 document.querySelector(".img2").setAttribute("src", "photos/"+ secondRandomCard + ".png");
 if (playerOneScore >= 4) {
-  document.querySelector("h1").textContent = playerOne + " Drinks";
+  document.querySelector("h1").textContent = playerTwo + " Drinks";
   playerOneScore = 0;
   playerTwoScore = 0;
   roundWorth = 0;
 } else if (playerTwoScore >= 4) {
-  document.querySelector("h1").textContent = playerTwo + " Drinks";
+  document.querySelector("h1").textContent = playerOne + " Drinks";
   playerOneScore = 0;
   playerTwoScore = 0;
   roundWorth = 0;
